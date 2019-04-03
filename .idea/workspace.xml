@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Documents/Documents/ActiveProjects/Conditional" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Documents/ActiveProjects/reporting" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../quickstart-java" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../reporting" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-828" />
+    <option name="y" value="-1440" />
+    <option name="width" value="3440" />
+    <option name="height" value="1440" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/ActiveProjects/BudetCurrent" value="1490510582000" />
+        <entry key="$USER_HOME$/ActiveProjects/Connectors/Corrigo" value="2963299816000" />
+        <entry key="$USER_HOME$/ActiveProjects/Connectors/Corrigo/corrigo" value="1481586662000" />
+        <entry key="$USER_HOME$/ActiveProjects/Connectors/JaggaerConnector" value="1490909972000" />
+        <entry key="$USER_HOME$/ActiveProjects/Connectors/Taylor Freezer" value="2966970623000" />
+        <entry key="$USER_HOME$/ActiveProjects/Connectors/UIC" value="2969630644000" />
+        <entry key="$USER_HOME$/ActiveProjects/Connectors/meridain-acadplus" value="2967125006000" />
+        <entry key="$USER_HOME$/ActiveProjects/Connectors/meridian-acadplus" value="2973188899000" />
+        <entry key="$USER_HOME$/ActiveProjects/Connectors/playFAMISCloud" value="2983734471000" />
+        <entry key="$USER_HOME$/ActiveProjects/Connectors/playFAMISCloud/sdk" value="1491867152000" />
+        <entry key="$USER_HOME$/ActiveProjects/Connectors/playWawa" value="2967492354000" />
+        <entry key="$USER_HOME$/ActiveProjects/Connectors/playfamis" value="2967448257000" />
+        <entry key="$USER_HOME$/ActiveProjects/Connectors/playstanford" value="1491843403000" />
+        <entry key="$USER_HOME$/ActiveProjects/playsdk" value="1490988858000" />
+        <entry key="$PROJECT_DIR$/../Corrigo" value="1481582701000" />
+        <entry key="$PROJECT_DIR$/../UIC" value="2963129730000" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Documents/Documents/ActiveProjects/GATech" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Documents/ActiveProjects/SalonManager" value="PREVIEW" />
+        <entry key="$USER_HOME$/Documents/Documents/ActiveProjects/TaylorFreezerBase" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Corrigo/corrigo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../InspectionFramework" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../PlayAIM" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../TaylorFreezerBase" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../corrigo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../famis-cloud-v2" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../mobileauth" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../mobilecore" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../playFAMISCloud" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../playfamis" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
