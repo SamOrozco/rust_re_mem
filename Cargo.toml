@@ -5,3 +5,4 @@ authors = ["Sam Orozco <sam.orozco@apptreesoftware.com>"]
 edition = "2018"
 
 [dependencies]
+json = "0.11.13"

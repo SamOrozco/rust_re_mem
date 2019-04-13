@@ -1,31 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
+  <component name="ChangeListManager">
+    <list default="true" id="0db37d07-0af6-48a8-afb6-bbee17ceed64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/re_mem.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/re_mem.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding>
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/fs.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="1834" column="66" lean-forward="true" selection-start-line="1834" selection-start-column="66" selection-end-line="1834" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
     </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/Documents/Documents/ActiveProjects/Conditional" value="PREVIEW" />
-        <entry key="$USER_HOME$/Documents/Documents/ActiveProjects/reporting" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../quickstart-java" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../reporting" value="PREVIEW" />
-      </map>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cargo</find>
+      <find>Object</find>
+      <find>enum</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_31.java" />
+        <option value="$PROJECT_DIR$/Cargo.toml" />
+        <option value="$PROJECT_DIR$/src/mod.rs" />
+        <option value="$PROJECT_DIR$/src/re_mem/mod.rs" />
+        <option value="$PROJECT_DIR$/src/files.rs" />
+        <option value="$PROJECT_DIR$/src/main.rs" />
+        <option value="$PROJECT_DIR$/src/re_mem.rs" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-828" />
-    <option name="y" value="-1440" />
-    <option name="width" value="3440" />
-    <option name="height" value="1440" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="re_mem_rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="re_mem_rust" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="re_mem_rust" type="b2602c69:ProjectViewProjectNode" />
+              <item name="re_mem_rust" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555182842771" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/files" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/re_mem" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet">
@@ -39,6 +154,16 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Run re_mem_rust" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --package re_mem_rust --bin re_mem_rust" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -65,6 +190,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo Command.Run re_mem_rust" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="modificationStamps">
@@ -104,6 +234,376 @@
         <entry key="$PROJECT_DIR$/../playfamis" value="PREVIEW" />
       </map>
     </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0db37d07-0af6-48a8-afb6-bbee17ceed64" name="Default Changelist" comment="" />
+      <created>1554311405331</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554311405331</updated>
+      <workItem from="1554311406774" duration="625000" />
+      <workItem from="1554318040042" duration="14000" />
+      <workItem from="1554331776569" duration="638000" />
+      <workItem from="1554332589009" duration="781000" />
+      <workItem from="1554440636308" duration="326000" />
+      <workItem from="1554495927001" duration="269000" />
+      <workItem from="1554498287969" duration="1433000" />
+      <workItem from="1554505265305" duration="601000" />
+      <workItem from="1554787236931" duration="804000" />
+      <workItem from="1555025100253" duration="2530000" />
+      <workItem from="1555167236386" duration="3966000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11987000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2753358" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4691745" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="SBT Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.52560085" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Tool Output" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="JProfiler" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Flutter Performance" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="16" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Cargo" order="5" />
+      <window_info anchor="right" id="Flutter Inspector" order="6" />
+      <window_info anchor="right" id="Flutter Outline" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/any.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="104" column="7" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_31.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mod.rs" />
+    <entry file="file://$PROJECT_DIR$/src/re_mem/mod.rs" />
+    <entry file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/json-0.11.13/src/parser.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="771" column="35" selection-start-line="771" selection-start-column="35" selection-end-line="771" selection-end-column="35" />
+          <folding>
+            <element signature="e#26358#26359#0" expanded="true" />
+            <element signature="e#26392#26393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cargo.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="600" column="29" selection-start-line="600" selection-start-column="29" selection-end-line="600" selection-end-column="29" />
+          <folding>
+            <element signature="e#21821#21822#0" expanded="true" />
+            <element signature="e#21875#21876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/json-0.11.13/src/short.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/json-0.11.13/src/value/mod.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#22#0" />
+            <element signature="e#4#21#1" />
+            <element signature="e#38#64#0" />
+            <element signature="e#75#144#0" />
+            <element signature="e#159#174#0" />
+            <element signature="e#250#294#0" />
+            <element signature="e#309#394#0" />
+            <element signature="e#1254#1275#0" />
+            <element signature="e#1284#1876#0" />
+            <element signature="e#1346#1870#0" />
+            <element signature="e#1906#2094#0" />
+            <element signature="e#2127#2727#0" />
+            <element signature="e#2139#2170#0" />
+            <element signature="e#2186#2725#0" />
+            <element signature="e#2213#2265#0" />
+            <element signature="e#2271#2719#0" />
+            <element signature="e#2297#2709#0" />
+            <element signature="e#2794#2922#0" />
+            <element signature="e#3014#3136#0" />
+            <element signature="e#3223#3263#0" />
+            <element signature="e#3297#3421#0" />
+            <element signature="e#3427#3551#0" />
+            <element signature="e#3569#3589#0" />
+            <element signature="e#3600#3732#0" />
+            <element signature="e#3738#3907#0" />
+            <element signature="e#4011#4034#0" />
+            <element signature="e#4035#4145#0" />
+            <element signature="e#4151#4226#0" />
+            <element signature="e#4253#4276#0" />
+            <element signature="e#4295#4383#0" />
+            <element signature="e#4389#4464#0" />
+            <element signature="e#4498#4534#0" />
+            <element signature="e#4553#4655#0" />
+            <element signature="e#4693#4859#0" />
+            <element signature="e#4715#4853#0" />
+            <element signature="e#4897#5021#0" />
+            <element signature="e#4919#5015#0" />
+            <element signature="e#5060#5185#0" />
+            <element signature="e#5082#5179#0" />
+            <element signature="e#5221#5335#0" />
+            <element signature="e#5243#5329#0" />
+            <element signature="e#5373#5497#0" />
+            <element signature="e#5395#5491#0" />
+            <element signature="e#5534#5656#0" />
+            <element signature="e#5556#5650#0" />
+            <element signature="e#5662#5890#0" />
+            <element signature="e#5926#6384#0" />
+            <element signature="e#5948#6378#0" />
+            <element signature="e#6427#6629#0" />
+            <element signature="e#6449#6623#0" />
+            <element signature="e#6677#6814#0" />
+            <element signature="e#6699#6808#0" />
+            <element signature="e#6887#6894#0" />
+            <element signature="e#6987#6994#0" />
+            <element signature="e#7056#7251#0" />
+            <element signature="e#7092#7099#0" />
+            <element signature="e#7100#7244#1" />
+            <element signature="e#7142#7192#0" />
+            <element signature="e#7198#7234#0" />
+            <element signature="e#7293#7377#0" />
+            <element signature="e#7326#7333#0" />
+            <element signature="e#7419#7503#0" />
+            <element signature="e#7452#7459#0" />
+            <element signature="e#7543#7626#0" />
+            <element signature="e#7576#7583#0" />
+            <element signature="e#7672#7758#0" />
+            <element signature="e#7705#7712#0" />
+            <element signature="e#7831#7838#0" />
+            <element signature="e#7900#7982#0" />
+            <element signature="e#7933#7940#0" />
+            <element signature="e#8024#8106#0" />
+            <element signature="e#8057#8064#0" />
+            <element signature="e#8146#8227#0" />
+            <element signature="e#8179#8186#0" />
+            <element signature="e#8273#8357#0" />
+            <element signature="e#8306#8313#0" />
+            <element signature="e#8401#8549#0" />
+            <element signature="e#8423#8543#0" />
+            <element signature="e#8555#9281#0" />
+            <element signature="e#9311#9330#0" />
+            <element signature="e#9346#9511#0" />
+            <element signature="e#9368#9505#0" />
+            <element signature="e#9517#9923#0" />
+            <element signature="e#9953#9972#0" />
+            <element signature="e#9988#10153#0" />
+            <element signature="e#10010#10147#0" />
+            <element signature="e#10159#10640#0" />
+            <element signature="e#10738#11460#0" />
+            <element signature="e#11513#11914#0" />
+            <element signature="e#11633#11894#0" />
+            <element signature="e#11920#11986#0" />
+            <element signature="e#12070#12283#0" />
+            <element signature="e#12092#12277#0" />
+            <element signature="e#12139#12217#1" />
+            <element signature="e#12289#12403#0" />
+            <element signature="e#12512#12580#1" />
+            <element signature="e#12636#12706#0" />
+            <element signature="e#12729#12745#0" />
+            <element signature="e#12784#12953#0" />
+            <element signature="e#12806#12947#0" />
+            <element signature="e#12864#12872#0" />
+            <element signature="e#12959#13024#0" />
+            <element signature="e#13043#13061#0" />
+            <element signature="e#13070#13232#0" />
+            <element signature="e#13092#13226#0" />
+            <element signature="e#13238#13334#0" />
+            <element signature="e#13366#13599#0" />
+            <element signature="e#13388#13593#0" />
+            <element signature="e#13431#13472#1" />
+            <element signature="e#13519#13563#1" />
+            <element signature="e#13605#13740#0" />
+            <element signature="e#13778#13929#0" />
+            <element signature="e#13800#13923#0" />
+            <element signature="e#13843#13885#1" />
+            <element signature="e#13935#14077#0" />
+            <element signature="e#14126#14289#0" />
+            <element signature="e#14148#14283#0" />
+            <element signature="e#14195#14241#1" />
+            <element signature="e#14295#14440#0" />
+            <element signature="e#14649#14809#0" />
+            <element signature="e#14858#15034#0" />
+            <element signature="e#14880#15028#0" />
+            <element signature="e#14931#14980#1" />
+            <element signature="e#15040#15232#0" />
+            <element signature="e#15250#15272#0" />
+            <element signature="e#15286#15486#0" />
+            <element signature="e#15308#15480#0" />
+            <element signature="e#15359#15436#1" />
+            <element signature="e#15492#15705#0" />
+            <element signature="e#15729#15754#0" />
+            <element signature="e#15768#16058#0" />
+            <element signature="e#15790#16052#0" />
+            <element signature="e#15837#16008#1" />
+            <element signature="e#15876#15933#0" />
+            <element signature="e#15939#15994#0" />
+            <element signature="e#16064#16216#0" />
+            <element signature="e#16245#16550#0" />
+            <element signature="e#16267#16544#0" />
+            <element signature="e#16554#16793#0" />
+            <element signature="e#16826#17044#0" />
+            <element signature="e#16870#16891#0" />
+            <element signature="e#16906#17042#0" />
+            <element signature="e#16928#17036#0" />
+            <element signature="e#17046#17345#0" />
+            <element signature="e#17381#17970#0" />
+            <element signature="e#17399#17424#0" />
+            <element signature="e#17443#17968#0" />
+            <element signature="e#17465#17962#0" />
+            <element signature="e#17512#17780#1" />
+            <element signature="e#17595#17650#0" />
+            <element signature="e#17656#17766#0" />
+            <element signature="e#17798#17952#1" />
+            <element signature="e#17972#18250#0" />
+            <element signature="e#18289#18493#0" />
+            <element signature="e#18333#18353#0" />
+            <element signature="e#18368#18491#0" />
+            <element signature="e#18390#18485#0" />
+            <element signature="e#18528#18652#0" />
+            <element signature="e#18572#18594#0" />
+            <element signature="e#18695#18820#0" />
+            <element signature="e#18739#18762#0" />
+            <element signature="e#18822#19116#0" />
+            <element signature="e#19158#19481#0" />
+            <element signature="e#19176#19200#0" />
+            <element signature="e#19219#19479#0" />
+            <element signature="e#19241#19473#0" />
+            <element signature="e#19292#19342#1" />
+            <element signature="e#19361#19463#1" />
+            <element signature="e#19519#19629#0" />
+            <element signature="e#19537#19563#0" />
+            <element signature="e#19675#19786#0" />
+            <element signature="e#19693#19720#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/json-0.11.13/src/object.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="226" column="11" selection-start-line="226" selection-start-column="11" selection-end-line="226" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libcore/result.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="795" column="20" selection-start-line="795" selection-start-column="20" selection-end-line="795" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cargo.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cargo/registry/src/github.com-1ecc6299db9ec823/json-0.11.13/src/lib.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="229" column="13" selection-start-line="229" selection-start-column="13" selection-end-line="229" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/files.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust/src/libstd/fs.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="1834" column="66" lean-forward="true" selection-start-line="1834" selection-start-column="66" selection-end-line="1834" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/re_mem.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
