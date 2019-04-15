@@ -13,6 +13,24 @@ pub fn new_store(_location: &str) -> ReMem {
 }
 
 
+// this function returns a collection that can be
+// used for reading, writing, and querying objects of
+// any types
+// if the collection directory does not exist it will
+// this function also initializes the .col and .row directories
+fn new_collection(_location: &str, _name: &str) -> Col {
+    create_dir_if_not_exists(_location);
+    // create col dir if not exists
+    create_dir_if_not_exists(&join_paths(&[_location, COL_DIR]));
+    // create row dir if not exists
+    create_dir_if_not_exists(&join_paths(&[_location, ROW_DIR]));
+    return Col {
+        _root_location: String::from(_location),
+        _collect_name: String::from(_name),
+    };
+}
+
+
 // ReMem root struct
 pub struct ReMem {
     _root_location: String,
@@ -29,7 +47,10 @@ impl ReMem {
     }
 
     pub fn get_collection(&self, col_name: &str) -> Col {
-        Col { _root_location: String::from("test"), _collect_name: String::from("test") }
+        // creating a directory per collection
+        // /root/location + "/" + col_name
+        let new_col_path = join_paths(&[&self._root_location, col_name]);
+        return new_collection(&new_col_path, col_name);
     }
 }
 
@@ -64,20 +85,3 @@ pub fn join_paths(args: &[&str]) -> String {
     }
     return String::from(url);
 }
-
-//// return col directory from root directory
-//// going to assume forward slash and path separator
-//// for now.
-//// TODO make path separator based on OS
-//fn get_col_dir(_location: &str) -> &str {
-//    _location + "/" + COL_DIR
-//}
-//
-//
-//// return col directory from root directory
-//// going to assume forward slash and path separator
-//// for now.
-//// TODO make path separator based on OS
-//fn get_row_dir(_location: &str) -> &str {
-//    _location + "./" + COL_DIR
-//}

@@ -2,6 +2,7 @@ pub mod re_mem;
 
 fn main() {
     let _store = re_mem::new_store("/Users/samorozco/rust_db");
+    let _user_collection = _store.get_collection("users");
     _store.print_location()
 }
 
