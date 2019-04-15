@@ -1,6 +1,22 @@
 pub mod re_mem;
 
 fn main() {
-    let _store = re_mem::ReMem::new_store("/Users/samorozco/rust_db");
+    let _store = re_mem::new_store("/Users/samorozco/rust_db");
     _store.print_location()
+}
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn join_paths() {
+        use super::*;
+        let path = re_mem::join_paths(&["test", "test", "test"]);
+        assert_eq!(path, "test/test/test");
+
+        let path = re_mem::join_paths(&["test"]);
+        assert_eq!(path, "test");
+
+        let path = re_mem::join_paths(&[]);
+        assert_eq!(path, "");
+    }
 }
