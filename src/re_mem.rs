@@ -1,4 +1,6 @@
+use std::collections::hash_map::DefaultHasher;
 use std::fs::create_dir_all;
+use std::hash::{Hash, Hasher};
 use std::path::Path;
 
 const COL_DIR: &str = ".col";
@@ -9,24 +11,8 @@ const ROW_DIR: &str = ".row";
 pub fn new_store(_location: &str) -> ReMem {
     // create root dir if needed
     create_dir_if_not_exists(_location);
-    return ReMem { _root_location: String::from(_location) };
-}
-
-
-// this function returns a collection that can be
-// used for reading, writing, and querying objects of
-// any types
-// if the collection directory does not exist it will
-// this function also initializes the .col and .row directories
-fn new_collection(_location: &str, _name: &str) -> Col {
-    create_dir_if_not_exists(_location);
-    // create col dir if not exists
-    create_dir_if_not_exists(&join_paths(&[_location, COL_DIR]));
-    // create row dir if not exists
-    create_dir_if_not_exists(&join_paths(&[_location, ROW_DIR]));
-    return Col {
+    return ReMem {
         _root_location: String::from(_location),
-        _collect_name: String::from(_name),
     };
 }
 
@@ -37,7 +23,7 @@ pub struct ReMem {
 }
 
 pub struct Col {
-    _root_location: String,
+    _collection_root_path: String,
     _collect_name: String,
 }
 
@@ -47,10 +33,26 @@ impl ReMem {
     }
 
     pub fn get_collection(&self, col_name: &str) -> Col {
-        // creating a directory per collection
-        // /root/location + "/" + col_name
-        let new_col_path = join_paths(&[&self._root_location, col_name]);
-        return new_collection(&new_col_path, col_name);
+        return self.new_collection(&self._root_location, col_name);
+    }
+
+    // this function returns a collection that can be
+    // used for reading, writing, and querying objects of
+    // any types
+    // if the collection directory does not exist it will
+    // this function also initializes the .col and .row directories
+    fn new_collection(&self, _root_path: &str, _name: &str) -> Col {
+        let _hash_name = hash_string(_name);
+        let _col_path = join_paths(&[_root_path, &_hash_name]);
+        create_dir_if_not_exists(&_col_path);
+        // create col dir if not exists
+        create_dir_if_not_exists(&join_paths(&[&_col_path, COL_DIR]));
+        // create row dir if not exists
+        create_dir_if_not_exists(&join_paths(&[&_col_path, ROW_DIR]));
+        return Col {
+            _collection_root_path: _col_path,
+            _collect_name: String::from(_name),
+        };
     }
 }
 
@@ -84,4 +86,17 @@ pub fn join_paths(args: &[&str]) -> String {
         url.push_str(args[idx]);
     }
     return String::from(url);
+}
+
+
+// universal hash string function
+fn hash_string(value: &str) -> String {
+    let hash_int = hash_it(value);
+    format!("{}", hash_int)
+}
+
+fn hash_it<T: Hash>(t: T) -> u64 {
+    let mut _hasher = DefaultHasher::new();
+    t.hash(&mut _hasher);
+    _hasher.finish()
 }
